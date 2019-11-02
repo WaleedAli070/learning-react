@@ -6,7 +6,7 @@ function getCurrentTime() {
 }
 const App = () => {
   return (
-    <div>
+    <div className="ui very padded text container segment">
       <h1>Hi there!</h1>
       <h3>Welcome to My React Learning Project - Chapter JSX</h3>
       
@@ -14,7 +14,7 @@ const App = () => {
         this chapter will only contain some basic project structure based on <code>create-react-app </code> 
          and a very basic example of JSX rendering:
       </p>
-      <ul>
+      <ul className="ui list">
         <li>Class and Style Attributes</li>
         <li>JS Variable Interpolation (displaying current time)</li>
       </ul>
